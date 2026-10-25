@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10070C" />
+      <stop offset="50%" stop-color="#190B12" />
+      <stop offset="100%" stop-color="#10070C" />
+    </linearGradient>
+
+    <!-- Wine Glow Gradient -->
+    <radialGradient id="wineGlow1" cx="20%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0.45" />
+      <stop offset="60%" stop-color="#451126" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#10070C" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="wineGlow2" cx="85%" cy="70%" r="55%">
+      <stop offset="0%" stop-color="#C77B9B" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#701A3D" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#10070C" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Shimmer Line Gradient -->
+    <linearGradient id="shimmerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0" />
+      <stop offset="30%" stop-color="#701A3D" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#E5B5C7" stop-opacity="1" />
+      <stop offset="70%" stop-color="#C77B9B" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#451126" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Text Gradient for Name -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F8F0F3" />
+      <stop offset="70%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E5B5C7" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="techGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#451126" stroke-width="0.75" stroke-opacity="0.4" />
+      <circle cx="0" cy="0" r="1" fill="#701A3D" fill-opacity="0.5" />
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    
+    @keyframes pulseOrb {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 0.65; transform: scale(1.08); }
+    }
+    @keyframes orbitRotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes lineScan {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
+    }
+    @keyframes beaconBlink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.25; }
+    }
+  </style>
+
+  <!-- Base Background -->
+  <rect width="940" height="320" rx="16" fill="url(#bgGrad)" stroke="#451126" stroke-width="1.5" />
+
+  <!-- Ambient Light Orbs -->
+  <rect width="940" height="320" rx="16" fill="url(#wineGlow1)" pointer-events="none" />
+  <rect width="940" height="320" rx="16" fill="url(#wineGlow2)" pointer-events="none" />
+
+  <!-- Technical Grid Overlay -->
+  <rect width="940" height="320" rx="16" fill="url(#techGrid)" />
+
+  <!-- Geometric Orbital Geometry (Right Side) -->
+  <g transform="translate(760, 160)" opacity="0.65">
+    <!-- Outer Orbit Ring -->
+    <circle r="95" fill="none" stroke="#701A3D" stroke-width="1" stroke-dasharray="4 6" opacity="0.6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Middle Orbit Ring -->
+    <circle r="68" fill="none" stroke="#C77B9B" stroke-width="1.2" stroke-dasharray="8 12" opacity="0.75">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="25s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Inner Core Ring -->
+    <circle r="42" fill="none" stroke="#E5B5C7" stroke-width="1" stroke-dasharray="2 4" opacity="0.5" />
+    <circle r="16" fill="#701A3D" fill-opacity="0.35" stroke="#C77B9B" stroke-width="1.5" />
+    <circle r="5" fill="#F8F0F3">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Orbiting Satellite Dot -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite" />
+      <circle cx="68" cy="0" r="3.5" fill="#E5B5C7" filter="url(#softGlow)" />
+    </g>
+
+    <!-- Orbiting Outer Node -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="180" to="540" dur="22s" repeatCount="indefinite" />
+      <circle cx="95" cy="0" r="2.5" fill="#C77B9B" />
+    </g>
+
+    <!-- Radar Crosshair Axis -->
+    <line x1="-115" y1="0" x2="115" y2="0" stroke="#451126" stroke-width="0.8" opacity="0.5" />
+    <line x1="0" y1="-115" x2="0" y2="115" stroke="#451126" stroke-width="0.8" opacity="0.5" />
+  </g>
+
+  <!-- Left Technical Accents & Coordinate Crosses -->
+  <g stroke="#701A3D" stroke-width="1" opacity="0.6">
+    <path d="M 45 40 L 45 52 M 39 46 L 51 46" />
+    <path d="M 45 270 L 45 282 M 39 276 L 51 276" />
+    <path d="M 890 40 L 890 52 M 884 46 L 896 46" />
+  </g>
+
+  <!-- Top Status Badge Pill -->
+  <g transform="translate(56, 42)">
+    <rect width="360" height="28" rx="14" fill="#190B12" stroke="#701A3D" stroke-width="1.2" />
+    <!-- Blinking Beacon Dot -->
+    <circle cx="16" cy="14" r="4.5" fill="#C77B9B">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="16" cy="14" r="8" fill="none" stroke="#C77B9B" stroke-width="0.8" opacity="0.4">
+      <animate attributeName="r" values="4;10;4" dur="1.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+    <text x="32" y="18.5" fill="#E5B5C7" class="mono" font-size="11" font-weight="600" letter-spacing="1.5">
+      FOUNDER @ UTHAKKAN • AI &amp; FULL-STACK
+    </text>
+  </g>
+
+  <!-- Main Headline: Name -->
+  <g transform="translate(56, 126)">
+    <text class="sans" font-size="40" font-weight="800" fill="url(#nameGrad)" letter-spacing="-0.5">
+      MUHAMMED AJMAL U K
+    </text>
+  </g>
+
+  <!-- Animated Glowing Underline -->
+  <g transform="translate(56, 142)">
+    <!-- Base track -->
+    <rect width="520" height="2" fill="#451126" />
+    <!-- Shimmering overlay bar -->
+    <rect width="220" height="2.5" fill="url(#shimmerGrad)">
+      <animate attributeName="x" values="-220;520" dur="3.8s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Role & Subtitle Statement -->
+  <g transform="translate(56, 178)">
+    <text class="sans" font-size="16" font-weight="500" fill="#E5B5C7" letter-spacing="0.2">
+      AI &amp; Full-Stack Developer • MCA Student @ CET • Digital Product Architect
+    </text>
+    <text class="sans" y="24" font-size="13.5" font-weight="400" fill="#C77B9B" opacity="0.9">
+      Designing practical AI systems, cross-platform apps, and scalable web solutions.
+    </text>
+  </g>
+
+  <!-- Tech Focus Badges -->
+  <g transform="translate(56, 246)">
+    <!-- Badge 1: Generative AI & Agents -->
+    <g transform="translate(0, 0)">
+      <rect width="144" height="28" rx="6" fill="#190B12" stroke="#451126" stroke-width="1" />
+      <circle cx="12" cy="14" r="3" fill="#C77B9B" />
+      <text x="22" y="18" fill="#F8F0F3" class="mono" font-size="10.5" font-weight="500">AI Agents &amp; LLMs</text>
+    </g>
+
+    <!-- Badge 2: Full-Stack Web -->
+    <g transform="translate(152, 0)">
+      <rect width="158" height="28" rx="6" fill="#190B12" stroke="#451126" stroke-width="1" />
+      <circle cx="12" cy="14" r="3" fill="#E5B5C7" />
+      <text x="22" y="18" fill="#F8F0F3" class="mono" font-size="10.5" font-weight="500">Full-Stack Platforms</text>
+    </g>
+
+    <!-- Badge 3: Mobile & Flutter -->
+    <g transform="translate(318, 0)">
+      <rect width="138" height="28" rx="6" fill="#190B12" stroke="#451126" stroke-width="1" />
+      <circle cx="12" cy="14" r="3" fill="#C77B9B" />
+      <text x="22" y="18" fill="#F8F0F3" class="mono" font-size="10.5" font-weight="500">Flutter &amp; Mobile</text>
+    </g>
+
+    <!-- Badge 4: Cloud & DevOps -->
+    <g transform="translate(464, 0)">
+      <rect width="140" height="28" rx="6" fill="#190B12" stroke="#451126" stroke-width="1" />
+      <circle cx="12" cy="14" r="3" fill="#E5B5C7" />
+      <text x="22" y="18" fill="#F8F0F3" class="mono" font-size="10.5" font-weight="500">Cloud &amp; Firebase</text>
+    </g>
+  </g>
+
+  <!-- Right Edge Coordinate Watermark -->
+  <g transform="translate(900, 290)">
+    <text text-anchor="end" fill="#701A3D" class="mono" font-size="9" letter-spacing="1" opacity="0.7">
+      08°32'N 76°54'E // TRIVANDRUM
+    </text>
+  </g>
+</svg>
