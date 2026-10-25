@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 100" width="100%" height="100%">
   <defs>
-    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#10070C" />
-      <stop offset="50%" stop-color="#190B12" />
-      <stop offset="100%" stop-color="#10070C" />
+    <linearGradient id="footerRedBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#090203" />
+      <stop offset="50%" stop-color="#140407" />
+      <stop offset="100%" stop-color="#090203" />
     </linearGradient>
 
-    <linearGradient id="footerLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#451126" stop-opacity="0" />
-      <stop offset="30%" stop-color="#701A3D" stop-opacity="0.9" />
-      <stop offset="50%" stop-color="#C77B9B" stop-opacity="1" />
-      <stop offset="70%" stop-color="#701A3D" stop-opacity="0.9" />
-      <stop offset="100%" stop-color="#451126" stop-opacity="0" />
+    <linearGradient id="footerRedLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5C0B14" stop-opacity="0" />
+      <stop offset="30%" stop-color="#800010" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#FF1E42" stop-opacity="1" />
+      <stop offset="70%" stop-color="#800010" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#5C0B14" stop-opacity="0" />
     </linearGradient>
   </defs>
 
@@ -21,33 +21,35 @@
   </style>
 
   <!-- Container Box -->
-  <rect width="940" height="100" rx="14" fill="url(#footerBg)" stroke="#451126" stroke-width="1.2" />
+  <rect width="940" height="100" rx="14" fill="url(#footerRedBg)" stroke="#5C0B14" stroke-width="1.4" />
 
-  <!-- Top Accent Glowing Line -->
-  <rect x="120" y="0" width="700" height="2" fill="url(#footerLineGrad)" />
+  <!-- Precision Corner HUD Brackets -->
+  <g stroke="#FF1E42" stroke-width="1.8" fill="none" opacity="0.75">
+    <path d="M 14 26 L 14 14 L 26 14" />
+    <path d="M 926 26 L 926 14 L 914 14" />
+    <path d="M 14 74 L 14 86 L 26 86" />
+    <path d="M 926 74 L 926 86 L 914 86" />
+  </g>
 
-  <!-- Center Decorative Diamond & Sparkle -->
+  <!-- Top Accent Glowing Crimson Line -->
+  <rect x="90" y="0" width="760" height="2" fill="url(#footerRedLine)" />
+
+  <!-- Center Decorative Ruby Diamond -->
   <g transform="translate(470, 32)">
-    <polygon points="0,-7 7,0 0,7 -7,0" fill="#C77B9B">
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite" />
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite" />
+    <polygon points="0,-7 7,0 0,7 -7,0" fill="#FF1E42">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite" />
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite" />
     </polygon>
-    <circle cx="0" cy="0" r="1.5" fill="#F8F0F3" />
+    <circle cx="0" cy="0" r="1.8" fill="#FFFFFF" />
   </g>
 
   <!-- Headline Motto -->
-  <text x="470" y="58" text-anchor="middle" class="sans" font-size="14.5" font-weight="600" fill="#F8F0F3" letter-spacing="0.5">
+  <text x="470" y="58" text-anchor="middle" class="sans" font-size="14.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">
     Building with Code, Creativity, and Curiosity
   </text>
 
   <!-- Secondary Metadata Line -->
-  <text x="470" y="78" text-anchor="middle" class="mono" font-size="10.5" fill="#C77B9B" letter-spacing="1.5">
+  <text x="470" y="78" text-anchor="middle" class="mono" font-size="10.5" font-weight="500" fill="#FFA3B1" letter-spacing="1.5">
     DESIGNED &amp; DEVELOPED BY MUHAMMED AJMAL U K • KERALA, INDIA
   </text>
-
-  <!-- Subtle Corner Plus Signs -->
-  <g stroke="#701A3D" stroke-width="1" opacity="0.5">
-    <path d="M 24 16 L 24 24 M 20 20 L 28 20" />
-    <path d="M 916 16 L 916 24 M 912 20 L 920 20" />
-  </g>
 </svg>
