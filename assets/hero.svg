@@ -1,52 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 330" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient (Obsidian to Crimson Noir) -->
-    <linearGradient id="redBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090203" />
-      <stop offset="50%" stop-color="#140407" />
-      <stop offset="100%" stop-color="#080102" />
+    <!-- Background Gradient (Midnight to Dark Wine) -->
+    <linearGradient id="hero_bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10070C" />
+      <stop offset="45%" stop-color="#190B12" />
+      <stop offset="85%" stop-color="#14070F" />
+      <stop offset="100%" stop-color="#10070C" />
     </linearGradient>
 
-    <!-- Crimson Energy Glows -->
-    <radialGradient id="crimsonGlow1" cx="18%" cy="25%" r="65%">
-      <stop offset="0%" stop-color="#E50914" stop-opacity="0.38" />
-      <stop offset="50%" stop-color="#800010" stop-opacity="0.14" />
-      <stop offset="100%" stop-color="#090203" stop-opacity="0" />
+    <!-- Wine & Burgundy Ambient Glows -->
+    <radialGradient id="hero_wineGlow1" cx="20%" cy="25%" r="65%">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#451126" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#10070C" stop-opacity="0" />
     </radialGradient>
 
-    <radialGradient id="crimsonGlow2" cx="88%" cy="75%" r="60%">
-      <stop offset="0%" stop-color="#FF1E42" stop-opacity="0.34" />
-      <stop offset="50%" stop-color="#5C0B14" stop-opacity="0.12" />
-      <stop offset="100%" stop-color="#090203" stop-opacity="0" />
+    <radialGradient id="hero_wineGlow2" cx="88%" cy="75%" r="60%">
+      <stop offset="0%" stop-color="#C77B9B" stop-opacity="0.28" />
+      <stop offset="40%" stop-color="#701A3D" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#10070C" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Laser Underline Shimmer -->
-    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#800010" stop-opacity="0" />
-      <stop offset="30%" stop-color="#E50914" stop-opacity="0.9" />
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1" />
-      <stop offset="70%" stop-color="#FF1E42" stop-opacity="0.9" />
-      <stop offset="100%" stop-color="#5C0B14" stop-opacity="0" />
+    <!-- Glowing Underline Laser Shimmer -->
+    <linearGradient id="hero_laserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#451126" stop-opacity="0" />
+      <stop offset="25%" stop-color="#701A3D" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#F8F0F3" stop-opacity="1" />
+      <stop offset="75%" stop-color="#C77B9B" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#451126" stop-opacity="0" />
     </linearGradient>
 
-    <!-- Text Highlight Gradient -->
-    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Name Title Gradient -->
+    <linearGradient id="hero_titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="65%" stop-color="#FFF0F3" />
-      <stop offset="100%" stop-color="#FFA3B1" />
+      <stop offset="55%" stop-color="#F8F0F3" />
+      <stop offset="100%" stop-color="#E5B5C7" />
     </linearGradient>
 
-    <!-- Fine Cyber Grid Pattern -->
-    <pattern id="cyberGrid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#5C0B14" stroke-width="0.7" stroke-opacity="0.45" />
-      <circle cx="0" cy="0" r="1" fill="#FF1E42" fill-opacity="0.6" />
+    <!-- Fine Burgundy Grid Pattern -->
+    <pattern id="hero_techGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#451126" stroke-width="0.75" stroke-opacity="0.5" />
+      <circle cx="0" cy="0" r="1.1" fill="#C77B9B" fill-opacity="0.4" />
     </pattern>
 
     <!-- Soft Bloom Filter -->
-    <filter id="crimsonBloom" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
+    <filter id="hero_roseBloom" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
+
+    <!-- Subtle Moving Gradient Accent -->
+    <linearGradient id="hero_flowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#C77B9B" stop-opacity="0.6">
+        <animate attributeName="stop-color" values="#C77B9B;#E5B5C7;#701A3D;#C77B9B" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#701A3D" stop-opacity="0.1" />
+    </linearGradient>
   </defs>
 
   <style>
@@ -54,62 +64,67 @@
     .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
   </style>
 
-  <!-- Base Dark Canvas -->
-  <rect width="940" height="330" rx="16" fill="url(#redBgGrad)" stroke="#5C0B14" stroke-width="1.6" />
+  <!-- Base Burgundy Canvas -->
+  <rect width="940" height="330" rx="16" fill="url(#hero_bgGrad)" stroke="#451126" stroke-width="1.6" />
 
-  <!-- Ambient Crimson Atmospheric Glows -->
-  <rect width="940" height="330" rx="16" fill="url(#crimsonGlow1)" pointer-events="none" />
-  <rect width="940" height="330" rx="16" fill="url(#crimsonGlow2)" pointer-events="none" />
+  <!-- Atmospheric Glows -->
+  <rect width="940" height="330" rx="16" fill="url(#hero_wineGlow1)" pointer-events="none" />
+  <rect width="940" height="330" rx="16" fill="url(#hero_wineGlow2)" pointer-events="none" />
 
-  <!-- Cyber Grid -->
-  <rect width="940" height="330" rx="16" fill="url(#cyberGrid)" />
+  <!-- Fine Technical Grid -->
+  <rect width="940" height="330" rx="16" fill="url(#hero_techGrid)" />
 
   <!-- Precision Corner HUD Brackets -->
-  <g stroke="#FF1E42" stroke-width="2" fill="none" opacity="0.85">
+  <g stroke="#C77B9B" stroke-width="2" fill="none" opacity="0.85">
     <path d="M 18 36 L 18 18 L 36 18" />
     <path d="M 922 36 L 922 18 L 904 18" />
     <path d="M 18 294 L 18 312 L 36 312" />
     <path d="M 922 294 L 922 312 L 904 312" />
   </g>
 
-  <!-- Right-side Orbital HUD Rings (Pure Crimson & Ruby) -->
-  <g transform="translate(780, 165)" opacity="0.85">
+  <!-- Animated Sinusoidal Vector Flow Path across the canvas -->
+  <path d="M 50 160 Q 220 110, 420 170 T 800 140" fill="none" stroke="url(#hero_flowGradient)" stroke-width="2" stroke-dasharray="8 6" opacity="0.5">
+    <animate attributeName="stroke-dashoffset" values="0;200" dur="14s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Right-side Orbital HUD Geometry (Editorial & Burgundy) -->
+  <g transform="translate(780, 165)" opacity="0.9">
     <!-- Outer Dashed Orbit -->
-    <circle r="98" fill="none" stroke="#800010" stroke-width="1.2" stroke-dasharray="6 8" opacity="0.6">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="45s" repeatCount="indefinite" />
+    <circle r="98" fill="none" stroke="#451126" stroke-width="1.2" stroke-dasharray="6 8" opacity="0.7">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="42s" repeatCount="indefinite" />
     </circle>
     
-    <!-- Middle Orbit -->
-    <circle r="70" fill="none" stroke="#FF1E42" stroke-width="1.4" stroke-dasharray="10 14" opacity="0.75">
-      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="28s" repeatCount="indefinite" />
+    <!-- Middle Orbit with Rose nodes -->
+    <circle r="70" fill="none" stroke="#701A3D" stroke-width="1.4" stroke-dasharray="10 14" opacity="0.85">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="26s" repeatCount="indefinite" />
     </circle>
 
-    <!-- Inner Core & Crosshair -->
-    <circle r="42" fill="none" stroke="#FF4D6D" stroke-width="1" stroke-dasharray="3 5" opacity="0.65" />
-    <circle r="17" fill="#5C0B14" fill-opacity="0.45" stroke="#FF1E42" stroke-width="1.8" />
-    <circle r="6" fill="#FFFFFF" filter="url(#crimsonBloom)">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite" />
+    <!-- Inner Core & Radar Arc -->
+    <circle r="44" fill="none" stroke="#C77B9B" stroke-width="1" stroke-dasharray="4 6" opacity="0.6" />
+    <circle r="18" fill="#190B12" stroke="#701A3D" stroke-width="1.8" />
+    <circle r="7" fill="#F8F0F3" filter="url(#hero_roseBloom)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite" />
     </circle>
 
-    <!-- Satellite Node 1 -->
+    <!-- Orbiting Satellite Node 1 (Rose) -->
     <g>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="15s" repeatCount="indefinite" />
-      <circle cx="70" cy="0" r="4" fill="#FF1E42" filter="url(#crimsonBloom)" />
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite" />
+      <circle cx="70" cy="0" r="4.5" fill="#E5B5C7" filter="url(#hero_roseBloom)" />
     </g>
 
-    <!-- Satellite Node 2 -->
+    <!-- Orbiting Satellite Node 2 (Pale Rose) -->
     <g>
-      <animateTransform attributeName="transform" type="rotate" from="180" to="540" dur="24s" repeatCount="indefinite" />
-      <circle cx="98" cy="0" r="3" fill="#FFA3B1" />
+      <animateTransform attributeName="transform" type="rotate" from="180" to="540" dur="22s" repeatCount="indefinite" />
+      <circle cx="98" cy="0" r="3.5" fill="#C77B9B" />
     </g>
 
-    <!-- Crosshair Lines -->
-    <line x1="-115" y1="0" x2="115" y2="0" stroke="#5C0B14" stroke-width="0.8" opacity="0.6" />
-    <line x1="0" y1="-115" x2="0" y2="115" stroke="#5C0B14" stroke-width="0.8" opacity="0.6" />
+    <!-- Crosshair Alignment Lines -->
+    <line x1="-115" y1="0" x2="115" y2="0" stroke="#451126" stroke-width="0.8" opacity="0.6" />
+    <line x1="0" y1="-115" x2="0" y2="115" stroke="#451126" stroke-width="0.8" opacity="0.6" />
   </g>
 
-  <!-- Left Technical Accents & Plus Crosses -->
-  <g stroke="#E50914" stroke-width="1.2" opacity="0.65">
+  <!-- Left Technical Accents / Plus Markers -->
+  <g stroke="#C77B9B" stroke-width="1.2" opacity="0.6">
     <path d="M 45 38 L 45 50 M 39 44 L 51 44" />
     <path d="M 45 282 L 45 294 M 39 288 L 51 288" />
     <path d="M 890 38 L 890 50 M 884 44 L 896 44" />
@@ -117,84 +132,84 @@
 
   <!-- Top Status Badge Pill -->
   <g transform="translate(56, 40)">
-    <rect width="368" height="28" rx="14" fill="#140407" stroke="#E50914" stroke-width="1.4" />
+    <rect width="384" height="28" rx="14" fill="#190B12" stroke="#701A3D" stroke-width="1.3" />
     <!-- Blinking Active Status Beacon -->
-    <circle cx="16" cy="14" r="4.5" fill="#FF1E42" filter="url(#crimsonBloom)">
-      <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite" />
+    <circle cx="16" cy="14" r="4.5" fill="#C77B9B" filter="url(#hero_roseBloom)">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite" />
     </circle>
-    <circle cx="16" cy="14" r="8" fill="none" stroke="#FF1E42" stroke-width="0.9" opacity="0.5">
-      <animate attributeName="r" values="4;11;4" dur="1.6s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.7;0;0.7" dur="1.6s" repeatCount="indefinite" />
+    <circle cx="16" cy="14" r="8" fill="none" stroke="#C77B9B" stroke-width="0.9" opacity="0.5">
+      <animate attributeName="r" values="4;11;4" dur="1.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.7;0;0.7" dur="1.8s" repeatCount="indefinite" />
     </circle>
-    <text x="32" y="18.5" fill="#FFF0F3" class="mono" font-size="11" font-weight="700" letter-spacing="1.5">
+    <text x="32" y="18.5" fill="#F8F0F3" class="mono" font-size="11" font-weight="700" letter-spacing="1.5">
       FOUNDER @ UTHAKKAN • AI &amp; FULL-STACK
     </text>
   </g>
 
   <!-- Main Headline: Name -->
   <g transform="translate(56, 126)">
-    <text class="sans" font-size="42" font-weight="850" fill="url(#titleGrad)" letter-spacing="-0.5">
+    <text class="sans" font-size="42" font-weight="850" fill="url(#hero_titleGrad)" letter-spacing="-0.5">
       MUHAMMED AJMAL U K
     </text>
   </g>
 
-  <!-- Animated Laser Glowing Underline -->
+  <!-- Animated Glowing Underline -->
   <g transform="translate(56, 144)">
     <!-- Base track -->
-    <rect width="520" height="2" fill="#5C0B14" />
+    <rect width="520" height="2" fill="#451126" />
     <!-- Laser beam shimmer -->
-    <rect width="240" height="3" fill="url(#laserGrad)">
-      <animate attributeName="x" values="-240;520" dur="3.4s" repeatCount="indefinite" />
+    <rect width="240" height="3" fill="url(#hero_laserGrad)">
+      <animate attributeName="x" values="-240;520" dur="3.6s" repeatCount="indefinite" />
     </rect>
   </g>
 
-  <!-- Role & Statement -->
+  <!-- Role & Positioning -->
   <g transform="translate(56, 182)">
-    <text class="sans" font-size="16.5" font-weight="600" fill="#FF4D6D" letter-spacing="0.2">
-      AI &amp; Full-Stack Developer • MCA Student @ CET • Digital Product Architect
+    <text class="sans" font-size="16.5" font-weight="600" fill="#E5B5C7" letter-spacing="0.2">
+      AI/ML Engineer • Full-Stack Developer • Creative Technologist
     </text>
-    <text class="sans" y="24" font-size="13.5" font-weight="400" fill="#FFA3B1" opacity="0.95">
-      Engineering Autonomous AI Agents, Production Web Platforms &amp; Mobile Ecosystems.
+    <text class="sans" y="24" font-size="13.5" font-weight="400" fill="#C77B9B" opacity="0.95">
+      MCA Student @ CET Trivandrum • Architecting Autonomous Agents, Web Systems &amp; Mobile Ecosystems.
     </text>
   </g>
 
-  <!-- Tech Focus Badges (Ruby & Scarlet Cyber Styling) -->
+  <!-- Curated Tech Focus Badges (Burgundy, Rose & Ivory Palette) -->
   <g transform="translate(56, 254)">
-    <!-- Badge 1: AI Agents & LLMs -->
+    <!-- Badge 1: Autonomous AI Agents -->
     <g transform="translate(0, 0)">
-      <rect width="138" height="28" rx="6" fill="#140407" stroke="#800010" stroke-width="1.2" />
-      <circle cx="12" cy="14" r="3" fill="#FF1E42" />
-      <text x="22" y="18" fill="#FFFFFF" class="mono" font-size="10.5" font-weight="600">AI Agents &amp; LLMs</text>
+      <rect width="168" height="28" rx="6" fill="#190B12" stroke="#451126" stroke-width="1.2" />
+      <circle cx="14" cy="14" r="3.5" fill="#C77B9B" />
+      <text x="25" y="18" fill="#F8F0F3" class="mono" font-size="10.5" font-weight="600">Autonomous AI Agents</text>
     </g>
 
-    <!-- Badge 2: Full-Stack Platforms -->
-    <g transform="translate(146, 0)">
-      <rect width="154" height="28" rx="6" fill="#140407" stroke="#800010" stroke-width="1.2" />
-      <circle cx="12" cy="14" r="3" fill="#E50914" />
-      <text x="22" y="18" fill="#FFFFFF" class="mono" font-size="10.5" font-weight="600">Full-Stack Platforms</text>
+    <!-- Badge 2: Full-Stack & REST APIs -->
+    <g transform="translate(176, 0)">
+      <rect width="164" height="28" rx="6" fill="#190B12" stroke="#451126" stroke-width="1.2" />
+      <circle cx="14" cy="14" r="3.5" fill="#701A3D" />
+      <text x="25" y="18" fill="#F8F0F3" class="mono" font-size="10.5" font-weight="600">Full-Stack &amp; REST APIs</text>
     </g>
 
-    <!-- Badge 3: Flutter & Mobile -->
-    <g transform="translate(308, 0)">
-      <rect width="134" height="28" rx="6" fill="#140407" stroke="#800010" stroke-width="1.2" />
-      <circle cx="12" cy="14" r="3" fill="#FF1E42" />
-      <text x="22" y="18" fill="#FFFFFF" class="mono" font-size="10.5" font-weight="600">Flutter &amp; Mobile</text>
+    <!-- Badge 3: Flutter & Cross-Platform -->
+    <g transform="translate(348, 0)">
+      <rect width="176" height="28" rx="6" fill="#190B12" stroke="#451126" stroke-width="1.2" />
+      <circle cx="14" cy="14" r="3.5" fill="#E5B5C7" />
+      <text x="25" y="18" fill="#F8F0F3" class="mono" font-size="10.5" font-weight="600">Flutter &amp; Cross-Platform</text>
     </g>
 
-    <!-- Badge 4: Cloud & Firebase -->
-    <g transform="translate(450, 0)">
-      <rect width="136" height="28" rx="6" fill="#140407" stroke="#800010" stroke-width="1.2" />
-      <circle cx="12" cy="14" r="3" fill="#E50914" />
-      <text x="22" y="18" fill="#FFFFFF" class="mono" font-size="10.5" font-weight="600">Cloud &amp; Firebase</text>
+    <!-- Badge 4: Cloud & OCI Architecture -->
+    <g transform="translate(532, 0)">
+      <rect width="180" height="28" rx="6" fill="#190B12" stroke="#451126" stroke-width="1.2" />
+      <circle cx="14" cy="14" r="3.5" fill="#C77B9B" />
+      <text x="25" y="18" fill="#F8F0F3" class="mono" font-size="10.5" font-weight="600">Cloud &amp; OCI Architecture</text>
     </g>
   </g>
 
   <!-- Right Telemetry & Coordinates -->
   <g transform="translate(900, 302)">
     <!-- Small ECG waveform -->
-    <path d="M -150 -4 L -130 -4 L -124 -11 L -118 6 L -112 -6 L -106 1 L -100 -4 L -80 -4" stroke="#FF1E42" stroke-width="1.2" fill="none" opacity="0.65" />
-    <text text-anchor="end" fill="#800010" class="mono" font-size="9" letter-spacing="1.2" opacity="0.85">
-      08°32'N 76°54'E // TRIVANDRUM
+    <path d="M -150 -4 L -130 -4 L -124 -11 L -118 6 L -112 -6 L -106 1 L -100 -4 L -80 -4" stroke="#C77B9B" stroke-width="1.2" fill="none" opacity="0.7" />
+    <text text-anchor="end" fill="#E5B5C7" class="mono" font-size="9" letter-spacing="1.2" opacity="0.85">
+      08°32'N 76°54'E // CET TRIVANDRUM
     </text>
   </g>
 </svg>
