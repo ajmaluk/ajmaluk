@@ -6,21 +6,21 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ajmal%20UK-701A3D?style=for-the-badge&logo=linkedin&logoColor=F8F0F3)](https://in.linkedin.com/in/ajmaluk)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ajmal%20UK-E50914?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/ajmaluk)
 &nbsp;
-[![Personal Portfolio](https://img.shields.io/badge/Portfolio-ajmal.uthakkan.in-451126?style=for-the-badge&logo=googlechrome&logoColor=F8F0F3)](https://ajmal.uthakkan.in)
+[![Personal Portfolio](https://img.shields.io/badge/Portfolio-ajmal.uthakkan.in-080102?style=for-the-badge&logo=googlechrome&logoColor=FF1E27)](https://ajmal.uthakkan.in)
 &nbsp;
-[![UTHAKKAN Studio](https://img.shields.io/badge/Studio-UTHAKKAN-190B12?style=for-the-badge&logo=vercel&logoColor=C77B9B)](https://www.uthakkan.in)
+[![UTHAKKAN Studio](https://img.shields.io/badge/Studio-UTHAKKAN-E50914?style=for-the-badge&logo=vercel&logoColor=white)](https://www.uthakkan.in)
 &nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-ajmaluk-10070C?style=for-the-badge&logo=github&logoColor=F8F0F3)](https://github.com/ajmaluk)
+[![GitHub](https://img.shields.io/badge/GitHub-ajmaluk-080102?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ajmaluk)
 &nbsp;
-[![Email Contact](https://img.shields.io/badge/Email-Get%20in%20Touch-701A3D?style=for-the-badge&logo=gmail&logoColor=F8F0F3)](mailto:ajmaluk.me@gmail.com)
+[![Email Contact](https://img.shields.io/badge/Email-Get%20in%20Touch-E50914?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ajmaluk.me@gmail.com)
 
 </div>
 
 ---
 
-### 🍷 Identity & Engineering Focus
+### 🔴 Identity & Engineering Focus
 
 I am **Muhammed Ajmal U K**, an **AI/ML Engineer**, **Full-Stack Developer**, and **Creative Technologist**. I am the Founder & Lead Engineer at **[UTHAKKAN](https://www.uthakkan.in)** and a **Master of Computer Applications (MCA)** scholar at **College of Engineering Trivandrum (CET)**.
 
@@ -59,13 +59,13 @@ Every credential listed below is verified against official issuing authorities, 
         <img src="assets/certificates/oracle_agent_studio.png" alt="Oracle Fusion AI Agent Studio Certified Foundations Associate" width="100%" />
       </a>
       <br/><br/>
-      <img src="https://img.shields.io/badge/Oracle-Certified-701A3D?style=flat-square&logo=oracle&logoColor=F8F0F3" alt="Oracle" />
+      <img src="https://img.shields.io/badge/Oracle-Certified-E50914?style=flat-square&logo=oracle&logoColor=white" alt="Oracle" />
       <br/>
       <b>Oracle Fusion AI Agent Studio Certified Foundations Associate — Rel 1</b><br/>
       <sub><b>Domain:</b> Autonomous AI Agents, Studio Tooling, Multi-Agent Orchestration</sub>
       <br/><br/>
       <a href="assets/certificates/oracle_agent_studio.png">
-        <img src="https://img.shields.io/badge/View%20Certificate-451126?style=for-the-badge&logo=oracle&logoColor=F8F0F3" alt="View Certificate" />
+        <img src="https://img.shields.io/badge/View%20Certificate-E50914?style=for-the-badge&logo=oracle&logoColor=white" alt="View Certificate" />
       </a>
     </td>
     <td width="50%" valign="top">
@@ -73,13 +73,13 @@ Every credential listed below is verified against official issuing authorities, 
         <img src="assets/certificates/oracle_oci_ai_foundations.png" alt="Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate" width="100%" />
       </a>
       <br/><br/>
-      <img src="https://img.shields.io/badge/Oracle-Certified-701A3D?style=flat-square&logo=oracle&logoColor=F8F0F3" alt="Oracle" />
+      <img src="https://img.shields.io/badge/Oracle-Certified-E50914?style=flat-square&logo=oracle&logoColor=white" alt="Oracle" />
       <br/>
       <b>Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate</b><br/>
       <sub><b>Validity:</b> Through Oct 23, 2027 &nbsp;|&nbsp; <b>Domain:</b> OCI AI Services, Machine Learning</sub>
       <br/><br/>
       <a href="assets/certificates/oracle_oci_ai_foundations.png">
-        <img src="https://img.shields.io/badge/View%20Certificate-451126?style=for-the-badge&logo=oracle&logoColor=F8F0F3" alt="View Certificate" />
+        <img src="https://img.shields.io/badge/View%20Certificate-E50914?style=for-the-badge&logo=oracle&logoColor=white" alt="View Certificate" />
       </a>
     </td>
   </tr>
@@ -90,13 +90,13 @@ Every credential listed below is verified against official issuing authorities, 
         <img src="assets/certificates/google_cloud_arcade.png" alt="Google Cloud Arcade Facilitator Program 2025 Cohort 2" width="100%" />
       </a>
       <br/><br/>
-      <img src="https://img.shields.io/badge/Google%20Cloud-Milestone%203-701A3D?style=flat-square&logo=googlecloud&logoColor=F8F0F3" alt="Google Cloud" />
+      <img src="https://img.shields.io/badge/Google%20Cloud-Milestone%203-E50914?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud" />
       <br/>
       <b>Google Cloud Arcade Facilitator Program 2025 (Cohort 2)</b><br/>
       <sub><b>Recognition:</b> Milestone 3 Certificate of Appreciation &nbsp;|&nbsp; <b>Domain:</b> Cloud &amp; Gen AI</sub>
       <br/><br/>
       <a href="assets/certificates/google_cloud_arcade.png">
-        <img src="https://img.shields.io/badge/View%20Certificate-451126?style=for-the-badge&logo=googlecloud&logoColor=F8F0F3" alt="View Certificate" />
+        <img src="https://img.shields.io/badge/View%20Certificate-E50914?style=for-the-badge&logo=googlecloud&logoColor=white" alt="View Certificate" />
       </a>
     </td>
     <td width="50%" valign="top">
@@ -104,13 +104,13 @@ Every credential listed below is verified against official issuing authorities, 
         <img src="assets/certificates/microsoft_prompt_engineering.png" alt="Microsoft Prompt Engineering with GitHub Copilot" width="100%" />
       </a>
       <br/><br/>
-      <img src="https://img.shields.io/badge/Microsoft%20%7C%20SkillUp-Verified-701A3D?style=flat-square&logo=microsoft&logoColor=F8F0F3" alt="Microsoft" />
+      <img src="https://img.shields.io/badge/Microsoft%20%7C%20SkillUp-Verified-E50914?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft" />
       <br/>
       <b>Introduction to Prompt Engineering with GitHub Copilot</b><br/>
       <sub><b>Date:</b> Oct 29, 2025 &nbsp;|&nbsp; <b>Credential ID:</b> <code>9264392</code> &nbsp;|&nbsp; <b>Domain:</b> Prompt Optimization</sub>
       <br/><br/>
       <a href="assets/certificates/microsoft_prompt_engineering.png">
-        <img src="https://img.shields.io/badge/View%20Certificate-451126?style=for-the-badge&logo=microsoft&logoColor=F8F0F3" alt="View Certificate" />
+        <img src="https://img.shields.io/badge/View%20Certificate-E50914?style=for-the-badge&logo=microsoft&logoColor=white" alt="View Certificate" />
       </a>
     </td>
   </tr>
@@ -121,17 +121,17 @@ Every credential listed below is verified against official issuing authorities, 
         <img src="assets/certificates/ibm_intro_to_software_engineering.png" alt="IBM Introduction to Software Engineering" width="100%" />
       </a>
       <br/><br/>
-      <img src="https://img.shields.io/badge/IBM%20%7C%20Coursera-Verified-701A3D?style=flat-square&logo=ibm&logoColor=F8F0F3" alt="IBM" />
+      <img src="https://img.shields.io/badge/IBM%20%7C%20Coursera-Verified-E50914?style=flat-square&logo=ibm&logoColor=white" alt="IBM" />
       <br/>
       <b>IBM Introduction to Software Engineering</b><br/>
       <sub><b>Date:</b> Nov 15, 2025 &nbsp;|&nbsp; <b>Domain:</b> SDLC, Software Architecture &amp; Agile Engineering</sub>
       <br/><br/>
       <a href="https://coursera.org/verify/S2NXOFAKLVFV">
-        <img src="https://img.shields.io/badge/Verify%20Credential-701A3D?style=for-the-badge&logo=coursera&logoColor=F8F0F3" alt="Verify on Coursera" />
+        <img src="https://img.shields.io/badge/Verify%20Credential-E50914?style=for-the-badge&logo=coursera&logoColor=white" alt="Verify on Coursera" />
       </a>
       &nbsp;
       <a href="assets/certificates/ibm_intro_to_software_engineering.png">
-        <img src="https://img.shields.io/badge/View%20Image-190B12?style=for-the-badge&logo=googlechrome&logoColor=C77B9B" alt="View Certificate" />
+        <img src="https://img.shields.io/badge/View%20Image-E50914?style=for-the-badge&logo=googlechrome&logoColor=white" alt="View Certificate" />
       </a>
     </td>
     <td width="50%" valign="top">
@@ -139,13 +139,13 @@ Every credential listed below is verified against official issuing authorities, 
         <img src="assets/certificates/deloitte_data_analytics.png" alt="Deloitte Data Analytics Job Simulation" width="100%" />
       </a>
       <br/><br/>
-      <img src="https://img.shields.io/badge/Deloitte%20%7C%20Forage-Completed-701A3D?style=flat-square&logo=deloitte&logoColor=F8F0F3" alt="Deloitte" />
+      <img src="https://img.shields.io/badge/Deloitte%20%7C%20Forage-Completed-E50914?style=flat-square&logo=deloitte&logoColor=white" alt="Deloitte" />
       <br/>
       <b>Deloitte Data Analytics Job Simulation</b><br/>
       <sub><b>Date:</b> Nov 1, 2025 &nbsp;|&nbsp; <b>Domain:</b> Forensic Technology, Analytics &amp; Case Execution</sub>
       <br/><br/>
       <a href="assets/certificates/deloitte_data_analytics.png">
-        <img src="https://img.shields.io/badge/View%20Certificate-451126?style=for-the-badge&logo=deloitte&logoColor=F8F0F3" alt="View Certificate" />
+        <img src="https://img.shields.io/badge/View%20Certificate-E50914?style=for-the-badge&logo=deloitte&logoColor=white" alt="View Certificate" />
       </a>
     </td>
   </tr>
@@ -156,13 +156,13 @@ Every credential listed below is verified against official issuing authorities, 
         <img src="assets/certificates/guvi_gen_ai.png" alt="GUVI Generative AI 101" width="100%" />
       </a>
       <br/><br/>
-      <img src="https://img.shields.io/badge/GUVI%20%7C%20HCL-Participant-701A3D?style=flat-square&logoColor=F8F0F3" alt="GUVI HCL" />
+      <img src="https://img.shields.io/badge/GUVI%20%7C%20HCL-Participant-E50914?style=flat-square&logoColor=white" alt="GUVI HCL" />
       <br/>
       <b>Generative AI 101 — Build the AI Edge for 2026</b><br/>
       <sub><b>Issuer:</b> GUVI &amp; HCL &nbsp;|&nbsp; <b>Date:</b> Oct 30, 2025 &nbsp;|&nbsp; <b>Domain:</b> LLM Integration &amp; Edge AI</sub>
       <br/><br/>
       <a href="assets/certificates/guvi_gen_ai.png">
-        <img src="https://img.shields.io/badge/View%20Certificate-451126?style=for-the-badge&logo=googlechrome&logoColor=F8F0F3" alt="View Certificate" />
+        <img src="https://img.shields.io/badge/View%20Certificate-E50914?style=for-the-badge&logo=googlechrome&logoColor=white" alt="View Certificate" />
       </a>
     </td>
     <td width="50%" valign="top">
@@ -170,13 +170,13 @@ Every credential listed below is verified against official issuing authorities, 
         <img src="assets/credentials_card.svg" alt="Verified Credential Archive Card" width="100%" />
       </a>
       <br/><br/>
-      <img src="https://img.shields.io/badge/Verified%20Repository-Assets-701A3D?style=flat-square&logo=github&logoColor=F8F0F3" alt="Verified Directory" />
+      <img src="https://img.shields.io/badge/Verified%20Repository-Assets-E50914?style=flat-square&logo=github&logoColor=white" alt="Verified Directory" />
       <br/>
       <b>Continuous Professional Education &amp; Verified Archive</b><br/>
       <sub>7 Official industry certificates verified and archived inside the repository, covering AI Agents, OCI Cloud, Prompt Engineering, and Software Design.</sub>
       <br/><br/>
       <a href="assets/certificates">
-        <img src="https://img.shields.io/badge/Browse%20Certificates%20Folder-451126?style=for-the-badge&logo=github&logoColor=F8F0F3" alt="Browse Directory" />
+        <img src="https://img.shields.io/badge/Browse%20Certificates%20Folder-E50914?style=for-the-badge&logo=github&logoColor=white" alt="Browse Directory" />
       </a>
     </td>
   </tr>
@@ -194,10 +194,10 @@ Production-grade digital products designed, engineered, and shipped to users:
 
 <table>
   <tr>
-    <th width="24%" align="center">Project</th>
-    <th width="42%" align="center">Description &amp; System Capabilities</th>
-    <th width="18%" align="center">Tech Stack</th>
-    <th width="16%" align="center">Action</th>
+    <th width="20%" align="center">Project</th>
+    <th width="44%" align="center">Description &amp; System Capabilities</th>
+    <th width="16%" align="center">Tech Stack</th>
+    <th width="20%" align="center">Action</th>
   </tr>
   <tr>
     <td align="center">
@@ -207,8 +207,8 @@ Production-grade digital products designed, engineered, and shipped to users:
     <td>Intelligent web platform delivering smart media processing, AI utilities, online compilers, and developer productivity tools. Generated 600K+ organic search clicks.</td>
     <td align="center"><code>Python</code><br/><code>Flask</code><br/><code>Gemini API</code><br/><code>OCR Engines</code></td>
     <td align="center">
-      <a href="https://toolpix.pythonanywhere.com">
-        <img src="https://img.shields.io/badge/Launch%20ToolPix-701A3D?style=for-the-badge&logo=rocket&logoColor=F8F0F3" alt="Launch ToolPix" />
+      <a href="https://toolpix.pythonanywhere.com" target="_blank">
+        <img src="assets/buttons/btn_toolpix.svg" alt="ToolPix" width="158" />
       </a>
     </td>
   </tr>
@@ -220,8 +220,8 @@ Production-grade digital products designed, engineered, and shipped to users:
     <td>Local multiplayer social deduction mobile game with automated role assignment and dynamic pass-and-play state engine published on Google Play.</td>
     <td align="center"><code>Flutter</code><br/><code>Dart</code><br/><code>Android</code><br/><code>Local Wi-Fi</code></td>
     <td align="center">
-      <a href="https://play.google.com/store/apps/details?id=com.ajmal.kallancop">
-        <img src="https://img.shields.io/badge/Google%20Play-451126?style=for-the-badge&logo=googleplay&logoColor=F8F0F3" alt="Google Play" />
+      <a href="https://play.google.com/store/apps/details?id=com.ajmal.kallancop" target="_blank">
+        <img src="assets/buttons/btn_kallancop.svg" alt="Google Play" width="158" />
       </a>
     </td>
   </tr>
@@ -233,8 +233,8 @@ Production-grade digital products designed, engineered, and shipped to users:
     <td>Cognitive-support mobile app for dementia patients and caregivers featuring DeepFace (ArcFace) facial recognition, real-time location tracking, and emergency alerts.</td>
     <td align="center"><code>Flutter</code><br/><code>Flask</code><br/><code>Firebase</code><br/><code>DeepFace</code></td>
     <td align="center">
-      <a href="https://github.com/ajmaluk/dementia-virtual-memory">
-        <img src="https://img.shields.io/badge/View%20Code-701A3D?style=for-the-badge&logo=github&logoColor=F8F0F3" alt="View Code" />
+      <a href="https://github.com/ajmaluk/dementia-virtual-memory" target="_blank">
+        <img src="assets/buttons/btn_dementia.svg" alt="View Code" width="158" />
       </a>
     </td>
   </tr>
@@ -246,8 +246,8 @@ Production-grade digital products designed, engineered, and shipped to users:
     <td>Cross-platform travel companion app helping solo travelers connect and match trips with real-time chat, media sharing, and push notifications.</td>
     <td align="center"><code>Flutter</code><br/><code>Firebase</code><br/><code>Cloudinary</code><br/><code>OneSignal</code></td>
     <td align="center">
-      <a href="https://github.com/ajmaluk/explore-together">
-        <img src="https://img.shields.io/badge/View%20Code-451126?style=for-the-badge&logo=github&logoColor=F8F0F3" alt="View Code" />
+      <a href="https://github.com/ajmaluk/explore-together" target="_blank">
+        <img src="assets/buttons/btn_explore.svg" alt="View Code" width="158" />
       </a>
     </td>
   </tr>
@@ -259,8 +259,8 @@ Production-grade digital products designed, engineered, and shipped to users:
     <td>Personal web portfolio presenting architectural case studies, software systems, and interactive product demos.</td>
     <td align="center"><code>HTML5/CSS3</code><br/><code>JavaScript</code><br/><code>Responsive</code></td>
     <td align="center">
-      <a href="https://ajmal.uthakkan.in">
-        <img src="https://img.shields.io/badge/Visit%20Portfolio-701A3D?style=for-the-badge&logo=googlechrome&logoColor=F8F0F3" alt="Visit Portfolio" />
+      <a href="https://ajmal.uthakkan.in" target="_blank">
+        <img src="assets/buttons/btn_portfolio.svg" alt="Visit Portfolio" width="158" />
       </a>
     </td>
   </tr>
@@ -272,8 +272,8 @@ Production-grade digital products designed, engineered, and shipped to users:
     <td>Official web platform for my independent digital product venture, building tools and web applications.</td>
     <td align="center"><code>React.js</code><br/><code>Node.js</code><br/><code>Cloud Web</code></td>
     <td align="center">
-      <a href="https://www.uthakkan.in">
-        <img src="https://img.shields.io/badge/Visit%20UTHAKKAN-190B12?style=for-the-badge&logo=vercel&logoColor=C77B9B" alt="Visit UTHAKKAN" />
+      <a href="https://www.uthakkan.in" target="_blank">
+        <img src="assets/buttons/btn_uthakkan.svg" alt="UTHAKKAN" width="158" />
       </a>
     </td>
   </tr>
@@ -291,7 +291,7 @@ Skills verified through real-world software engineering, university research, an
 
 <table>
   <tr>
-    <td width="26%" align="center"><b>🍷 AI &amp; Cloud Systems</b></td>
+    <td width="26%" align="center"><b>🔴 AI &amp; Cloud Systems</b></td>
     <td width="74%">
       <code>Autonomous AI Agents</code> &nbsp; <code>LLM Integration</code> &nbsp; <code>Prompt Engineering</code> &nbsp; <code>Oracle Cloud (OCI)</code> &nbsp; <code>Google Cloud</code> &nbsp; <code>Firebase</code> &nbsp; <code>DeepFace</code>
     </td>
@@ -326,12 +326,12 @@ Skills verified through real-world software engineering, university research, an
 
 ### 📈 Contribution Heatmap
 
-Live GitHub contribution telemetry rendered in custom wine/burgundy:
+Live GitHub contribution telemetry rendered in electric neon red:
 
 <div align="center">
 
 <a href="https://github.com/ajmaluk">
-  <img width="100%" src="https://ghchart.rshah.org/701A3D/ajmaluk" alt="Muhammed Ajmal U K — GitHub Contribution Heatmap in Burgundy Wine" />
+  <img width="100%" src="https://ghchart.rshah.org/FF1E27/ajmaluk" alt="Muhammed Ajmal U K — GitHub Contribution Heatmap in Electric Red" />
 </a>
 
 <br/>
@@ -344,17 +344,17 @@ Live GitHub contribution telemetry rendered in custom wine/burgundy:
 
 ### 📊 GitHub Analytics
 
-Curated engineering metrics themed in the custom burgundy palette (`#10070C` midnight, `#451126` burgundy border, `#E5B5C7` pale rose title, `#C77B9B` rose accents):
+Curated engineering metrics themed in obsidian noir (`#080102`), electric neon red (`#FF1E27`), and crisp white typography:
 
 <div align="center">
 
-<img width="48.5%" src="https://github-readme-stats.vercel.app/api?username=ajmaluk&show_icons=true&bg_color=10070C&title_color=E5B5C7&text_color=F8F0F3&icon_color=C77B9B&border_color=451126" alt="Ajmal UK - GitHub Stats" />
+<img width="48.5%" src="https://github-readme-stats.vercel.app/api?username=ajmaluk&show_icons=true&bg_color=080102&title_color=FF1E27&text_color=FFFFFF&icon_color=FF1E27&border_color=4A060C" alt="Ajmal UK - GitHub Stats" />
 &nbsp;
-<img width="48.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=ajmaluk&background=10070C&border=451126&stroke=701A3D&ring=C77B9B&fire=C77B9B&currStreakNum=F8F0F3&sideNums=E5B5C7&currStreakLabel=E5B5C7&sideLabels=C77B9B&dates=E5B5C7" alt="Ajmal UK - GitHub Streak" />
+<img width="48.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=ajmaluk&background=080102&border=4A060C&stroke=6B050B&ring=FF1E27&fire=FF1E27&currStreakNum=FFFFFF&sideNums=FFA3AD&currStreakLabel=FF1E27&sideLabels=FFA3AD&dates=FFA3AD" alt="Ajmal UK - GitHub Streak" />
 
 <br/><br/>
 
-<img width="65%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ajmaluk&layout=compact&bg_color=10070C&title_color=E5B5C7&text_color=F8F0F3&border_color=451126" alt="Ajmal UK - Top Languages" />
+<img width="65%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ajmaluk&layout=compact&bg_color=080102&title_color=FF1E27&text_color=FFFFFF&border_color=4A060C" alt="Ajmal UK - Top Languages" />
 
 </div>
 
@@ -367,32 +367,32 @@ Let's discuss AI product development, software architecture, or engineering oppo
 <div align="center">
 
 <a href="https://in.linkedin.com/in/ajmaluk" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Ajmal%20UK-701A3D?style=for-the-badge&logo=linkedin&logoColor=F8F0F3" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/LinkedIn-Ajmal%20UK-E50914?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 &nbsp;
 <a href="https://github.com/ajmaluk" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-ajmaluk-10070C?style=for-the-badge&logo=github&logoColor=F8F0F3" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub-ajmaluk-080102?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 &nbsp;
 <a href="https://ajmal.uthakkan.in" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-ajmal.uthakkan.in-451126?style=for-the-badge&logo=googlechrome&logoColor=F8F0F3" alt="Portfolio" />
+  <img src="https://img.shields.io/badge/Portfolio-ajmal.uthakkan.in-080102?style=for-the-badge&logo=googlechrome&logoColor=FF1E27" alt="Portfolio" />
 </a>
 &nbsp;
 <a href="https://www.uthakkan.in" target="_blank">
-  <img src="https://img.shields.io/badge/Studio-UTHAKKAN-190B12?style=for-the-badge&logo=vercel&logoColor=C77B9B" alt="UTHAKKAN" />
+  <img src="https://img.shields.io/badge/Studio-UTHAKKAN-E50914?style=for-the-badge&logo=vercel&logoColor=white" alt="UTHAKKAN" />
 </a>
 &nbsp;
 <a href="mailto:ajmaluk.me@gmail.com">
-  <img src="https://img.shields.io/badge/Email-ajmaluk.me%40gmail.com-701A3D?style=for-the-badge&logo=gmail&logoColor=F8F0F3" alt="Email" />
+  <img src="https://img.shields.io/badge/Email-ajmaluk.me%40gmail.com-E50914?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 &nbsp;
 <a href="https://instagram.com/ajmaluk.me" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-ajmaluk.me-451126?style=for-the-badge&logo=instagram&logoColor=F8F0F3" alt="Instagram" />
+  <img src="https://img.shields.io/badge/Instagram-ajmaluk.me-E50914?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
 </a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=ajmaluk&label=Profile%20Views&color=701A3D&style=flat-square" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=ajmaluk&label=Profile%20Views&color=E50914&style=flat-square" alt="Profile Views" />
 
 </div>
 

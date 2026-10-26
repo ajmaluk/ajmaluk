@@ -1,63 +1,76 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 100" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient (Dark Wine to Midnight) -->
+    <!-- Background Gradient (Obsidian Noir) -->
     <linearGradient id="footer_bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#10070C" />
-      <stop offset="50%" stop-color="#190B12" />
-      <stop offset="100%" stop-color="#10070C" />
+      <stop offset="0%" stop-color="#080102" />
+      <stop offset="50%" stop-color="#140205" />
+      <stop offset="100%" stop-color="#080102" />
     </linearGradient>
 
-    <!-- Glowing Wine Line -->
-    <linearGradient id="footer_lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#451126" stop-opacity="0" />
-      <stop offset="30%" stop-color="#701A3D" stop-opacity="0.9" />
-      <stop offset="50%" stop-color="#E5B5C7" stop-opacity="1" />
-      <stop offset="70%" stop-color="#701A3D" stop-opacity="0.9" />
-      <stop offset="100%" stop-color="#451126" stop-opacity="0" />
+    <!-- Top Laser Shimmer Gradient -->
+    <linearGradient id="footer_laserShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4A060C" stop-opacity="0" />
+      <stop offset="25%" stop-color="#EF1103" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="75%" stop-color="#FF1E27" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#4A060C" stop-opacity="0" />
     </linearGradient>
 
-    <!-- Diamond Bloom -->
-    <filter id="footer_diamondBloom" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+    <!-- Diamond Red Bloom -->
+    <filter id="footer_diamondBloom" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
   </defs>
 
   <style>
     .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
-    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
   </style>
 
   <!-- Container Box -->
-  <rect width="940" height="100" rx="14" fill="url(#footer_bgGrad)" stroke="#451126" stroke-width="1.4" />
+  <rect width="940" height="100" rx="14" fill="url(#footer_bgGrad)" stroke="#4A060C" stroke-width="1.4" />
 
-  <!-- Precision Corner HUD Brackets -->
-  <g stroke="#C77B9B" stroke-width="1.8" fill="none" opacity="0.75">
+  <!-- Precision Corner HUD Brackets (Electric Neon Red) -->
+  <g stroke="#FF1E27" stroke-width="1.8" fill="none" opacity="0.85" filter="url(#footer_diamondBloom)">
     <path d="M 14 26 L 14 14 L 26 14" />
     <path d="M 926 26 L 926 14 L 914 14" />
     <path d="M 14 74 L 14 86 L 26 86" />
     <path d="M 926 74 L 926 86 L 914 86" />
   </g>
 
-  <!-- Top Accent Glowing Burgundy/Wine Line -->
-  <rect x="90" y="0" width="760" height="2" fill="url(#footer_lineGrad)" />
+  <!-- Top Base Accent Line -->
+  <rect x="90" y="0" width="760" height="1.8" fill="#4A060C" />
+  <!-- Traveling Laser Beam across Top Accent -->
+  <rect width="200" height="2.2" y="0" fill="url(#footer_laserShimmer)">
+    <animate attributeName="x" values="90;750" dur="3.2s" repeatCount="indefinite" />
+  </rect>
 
-  <!-- Center Decorative Rose Diamond -->
+  <!-- Center Decorative Dual-Rotating Electric Red Diamonds -->
   <g transform="translate(470, 32)">
-    <polygon points="0,-7 7,0 0,7 -7,0" fill="#C77B9B" filter="url(#footer_diamondBloom)">
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite" />
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite" />
-    </polygon>
-    <circle cx="0" cy="0" r="2" fill="#F8F0F3" />
+    <!-- Outer Diamond (Clockwise) -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite" />
+      <polygon points="0,-9 9,0 0,9 -9,0" fill="none" stroke="#FF1E27" stroke-width="1.2" opacity="0.85" filter="url(#footer_diamondBloom)" />
+    </g>
+    <!-- Inner Diamond (Counter-Clockwise) -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="12s" repeatCount="indefinite" />
+      <polygon points="0,-6 6,0 0,6 -6,0" fill="#EF1103" opacity="0.9" />
+    </g>
+    <!-- Center Hot White Dot -->
+    <circle cx="0" cy="0" r="2" fill="#FFFFFF">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
   </g>
 
   <!-- Headline Motto -->
-  <text x="470" y="58" text-anchor="middle" class="sans" font-size="14.5" font-weight="700" fill="#F8F0F3" letter-spacing="0.5">
+  <text x="470" y="58" text-anchor="middle" class="sans" font-size="14.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">
     Crafted with Precision, Intent &amp; Architectural Discipline
   </text>
 
   <!-- Secondary Metadata Line -->
-  <text x="470" y="78" text-anchor="middle" class="mono" font-size="10.5" font-weight="500" fill="#E5B5C7" letter-spacing="1.5">
+  <text x="470" y="78" text-anchor="middle" class="mono" font-size="10.5" font-weight="500" fill="#FF4D5E" letter-spacing="1.5">
     DESIGNED &amp; DEVELOPED BY MUHAMMED AJMAL U K • KERALA, INDIA
   </text>
 </svg>

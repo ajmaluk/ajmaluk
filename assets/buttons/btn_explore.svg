@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 38" width="168" height="38">
+  <defs>
+    <linearGradient id="btn_e_bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#080102" />
+      <stop offset="50%" stop-color="#180307" />
+      <stop offset="100%" stop-color="#080102" />
+    </linearGradient>
+
+    <radialGradient id="btn_e_glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#EF1103" stop-opacity="0.35">
+        <animate attributeName="stop-opacity" values="0.2;0.5;0.2" dur="2.5s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#080102" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="btn_e_laser" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF1E27" />
+      <stop offset="50%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#EF1103" />
+    </linearGradient>
+
+    <filter id="btn_e_bloom" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .btn-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 700; font-size: 11.5px; letter-spacing: 1.2px; fill: #FFFFFF; }
+  </style>
+
+  <rect x="1" y="1" width="166" height="36" rx="18" fill="url(#btn_e_bg)" stroke="#4A060C" stroke-width="1.2" />
+  <rect x="1" y="1" width="166" height="36" rx="18" fill="url(#btn_e_glow)" pointer-events="none" />
+
+  <!-- Animated Orbiting Perimeter Laser -->
+  <rect x="1" y="1" width="166" height="36" rx="18" fill="none" stroke="url(#btn_e_laser)" stroke-width="2" stroke-dasharray="80 270" filter="url(#btn_e_bloom)">
+    <animate attributeName="stroke-dashoffset" values="0;-350" dur="2.5s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- GitHub Code Icon -->
+  <g transform="translate(24, 19)">
+    <path d="M -5 -3 L -8 0 L -5 3 M 5 -3 L 8 0 L 5 3 M -2 5 L 2 -5" stroke="#FF1E27" stroke-width="1.8" stroke-linecap="round" fill="none" filter="url(#btn_e_bloom)">
+      <animate attributeName="opacity" values="0.75;1;0.75" dur="1.7s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Button Label -->
+  <text x="40" y="23" class="btn-text">
+    VIEW CODE
+  </text>
+
+  <!-- External Arrow -->
+  <g transform="translate(148, 19)">
+    <path d="M -4 2 L 2 -4 M 2 -4 L -2 -4 M 2 -4 L 2 0" stroke="#FF1E27" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#btn_e_bloom)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.5s" repeatCount="indefinite" />
+    </path>
+  </g>
+</svg>
